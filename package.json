@@ -1,17 +1,16 @@
 {
-  "name": "notes",
+  "name": "notes-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "CLI notebook.",
   "main": "app.js",
   "dependencies": {
     "chalk": "^3.0.0",
-    "yargs": "^15.1.0"
+    "yargs": "^15.3.1"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node src/app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/app.js"
   },
-  "author": "",
+  "author": "Bence László <bencelaszlo@protonmail.com> (https://bencelaszlo.hu)",
   "license": "ISC"
 }
